@@ -19,7 +19,7 @@ Please cite AlphaCross-XL's latest manuscript present here:
 
 ## Using AlphaCross-XL
 ### Web Version (through Google Colab) **(Recommended)**
-For ease of use, AlphaCross-XL is available as a web version, thanks to Google Colaboratory (or Colab). This version can be found here: [tinyurl.com/alphacross-xl-v1](https://tinyurl.com/alphacross-xl-v1). Do note that Google Colab's usage policy applies to this version:
+For ease of use, AlphaCross-XL is available as a web version, thanks to Google Colaboratory (or Colab). This version can be found here: [tinyurl.com/alphacross-xl-v1](https://tinyurl.com/alphacrossxl-v1). Do note that Google Colab's usage policy applies to this version:
 * AlphaCross-XL will need to be **re-installed**, every time the Google Colab's Remote Instance Expires.
 ### Local Versions
 Alternatively, you can run AlphaCross-XL on your computer by using it as a Jupyter Notebook or a stand-alone script. The Jupyter Notebook version is already available. Stand-alone Script will be soon available.
