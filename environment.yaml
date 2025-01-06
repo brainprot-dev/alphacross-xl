@@ -1,0 +1,24 @@
+name: acxlenv
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - python=3.9
+  - numpy
+  - pandas
+  - matplotlib
+  - seaborn
+  - ipywidgets=7.7.1
+  - ipython
+  - pathlib
+  - requests
+  - pip
+  - pip:
+    - gdown
+    - prody==2.4.1
+    - pyfastx==2.2.0
+    - biopython==1.79
+
+# Note: pymol-open-source is not included as it should be installed 
+# separately based on the system requirements and version compatibility
