@@ -39,6 +39,14 @@ AlphaCross-XL is an interactive Google Colaboratory (Colab) powered IPython Note
 ### Local Environment
 You can also download the IPython Notebook given here and use your local python environment to run it. This allows you finer control over the tool and can also help you if you are modifying the tool for development/exploratory purposes.
 
+1. (Optional, but recommended) Create a local environment
+   - Use either conda/miniconda or pip to create a virtual environment
+   - Virtual environments are very useful for development/local use of AlphaCross-XL
+2. Use requirements.txt/environment.yaml to install AlphaCross-XL's dependencies
+3. Setting up PyMOL (Open Source)
+   - We use PyMOL Open Source for visualization of protein cross-links.
+   - You can use package managers (apt/homebrew/e.t.c.) to install PyMOL and skip the building process which was designed with Google Colab in mind.
+
 ### Input Requirements
 
 1. **Cross-linking Data File** (.xlsx or .csv):
@@ -53,7 +61,7 @@ You can also download the IPython Notebook given here and use your local python 
 Currently AlphaCross-XL doesn't support protein-centric formats for link-sites out-of-box and is a WIP feature.
 However you can use the FormatXLChange.ipynb notebook in this repository which can convert an input file from protein-centric to peptide-centric format.
 This script also supports multiple linksites on single row (separated using a character, for .e.g. ';'
-You can find an example input file which uses protein-centric format in the 'Examples' subdirectory of this repository
+You can find an example input file which uses protein-centric format in the 'examples' subdirectory of this repository
 
 2. **FASTA Database**:
    - Compressed FASTA database (.gz) of reviewed UniProt/SwissProt proteins
