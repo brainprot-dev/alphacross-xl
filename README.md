@@ -40,6 +40,7 @@ AlphaCross-XL is an interactive Google Colaboratory (Colab) powered IPython Note
 
 1. **Cross-linking Data File** (.xlsx or .csv):
    - Peptide-centric Format for Link Sites
+   - One cross-link (link-site pair) per row
    - UniProt ID column
    - Peptide A and B columns
    - X-link type column (Intra-Protein and Loop Links only currently supported)
