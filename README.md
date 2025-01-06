@@ -36,6 +36,9 @@ AlphaCross-XL is an interactive Google Colaboratory (Colab) powered IPython Note
    - Click 'View' in the Menu Bar
    - Select 'Hide/Show Code' to hide the implementation details
 
+### Local Environment
+You can also download the IPython Notebook given here and use your local python environment to run it. This allows you finer control over the tool and can also help you if you are modifying the tool for development/exploratory purposes.
+
 ### Input Requirements
 
 1. **Cross-linking Data File** (.xlsx or .csv):
@@ -45,12 +48,18 @@ AlphaCross-XL is an interactive Google Colaboratory (Colab) powered IPython Note
    - Peptide A and B columns
    - X-link type column (Intra-Protein and Loop Links only currently supported)
    - Link Site A and B columns in format '{R}{n}' (e.g., 'K5' for Lysine at position 5)
+  
+#### Note for Protein-centric Format
+Currently AlphaCross-XL doesn't support protein-centric formats for link-sites out-of-box and is a WIP feature.
+However you can use the FormatXLChange.ipynb notebook in this repository which can convert an input file from protein-centric to peptide-centric format.
+This script also supports multiple linksites on single row (separated using a character, for .e.g. ';'
+You can find an example input file which uses protein-centric format in the 'Examples' subdirectory of this repository
 
-3. **FASTA Database**:
+2. **FASTA Database**:
    - Compressed FASTA database (.gz) of reviewed UniProt/SwissProt proteins
    - Must contain all proteins referenced in the data file
 
-4. **Custom Structure Files** (Optional):
+3. **Custom Structure Files** (Optional):
    - .zip archive containing only .cif files
    - Files must be named as {UniProtID}.cif
    - No subdirectories allowed in the archive
