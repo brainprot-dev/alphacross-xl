@@ -1,0 +1,23 @@
+# Core dependencies
+numpy
+pandas
+matplotlib
+seaborn
+
+# UI and interaction
+ipywidgets
+ipython
+
+# File handling
+pathlib
+requests
+gdown
+
+# Specialized libraries
+prody         # For protein structure analysis
+pyfastx      # For FASTA processing
+# pymol-open-source  # Optional (For visualization)
+## A specific version of pymol-open-source is being installed the ipywidget-based GUI
+
+# Optional but recommended
+biopython==1.79  # Required by some dependencies
