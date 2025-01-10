@@ -45,7 +45,7 @@ You can also download the IPython Notebook given here and use your local python 
 2. Use requirements.txt/environment.yaml to install AlphaCross-XL's dependencies
 3. Setting up PyMOL (Open Source)
    - We use PyMOL Open Source for visualization of protein cross-links.
-   - You can use package managers (apt/homebrew/e.t.c.) to install PyMOL and skip the building process which was designed with Google Colab in mind.
+   - You can use package managers (apt/homebrew/e.t.c.) or conda (with conda-forge channel) to install PyMOL Open Source and skip the building process which was designed with Google Colab in mind.
 
 ### Input Requirements
 
