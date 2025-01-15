@@ -36,7 +36,7 @@ AlphaCross-XL is an interactive Google Colaboratory (Colab) powered IPython Note
    - Click 'View' in the Menu Bar
    - Select 'Hide/Show Code' to hide the implementation details
   
-** A complete step-by-step guide to using the Colab version of the tool is given in the [AlphaCross-XL Manual](https://docs.google.com/document/d/1bImTNjxL4dNL_kH7wXxXP8R8j_pjJ9qRZ8zWygOedNM/edit?usp=sharing) and a video tutorial for the same can be found in the [Video Guide](https://drive.google.com/file/d/1feQtZKYI-fxTWeE0u7ZSf5PDK6DuHJj0/view?usp=share_link) **
+
 
 ### Local Environment
 You can also download the IPython Notebook given here and use your local python environment to run it. This allows you finer control over the tool and can also help you if you are modifying the tool for development/exploratory purposes.
@@ -75,6 +75,8 @@ You can find an example input file which uses protein-centric format in the 'exa
    - No subdirectories allowed in the archive
 
 ### Workflow
+
+**A complete step-by-step guide to using the Colab version of the tool is given in the [AlphaCross-XL Manual](https://docs.google.com/document/d/1bImTNjxL4dNL_kH7wXxXP8R8j_pjJ9qRZ8zWygOedNM/edit?usp=sharing) and a video tutorial for the same can be found in the [Video Guide](https://drive.google.com/file/d/1feQtZKYI-fxTWeE0u7ZSf5PDK6DuHJj0/view?usp=share_link). A shortened version is given below:**
 
 1. **Initialize and Start**:
    - Click the play button or use Ctrl+Enter (Windows/Linux) / Cmd+Enter (Mac)
