@@ -25,7 +25,7 @@ AlphaCross-XL is an interactive Google Colaboratory (Colab) powered IPython Note
 
 ### Web Version (Recommended)
 
-1. Access AlphaCross-XL through Google Colab: [AlphaCross-XL.ipynb](https://colab.research.google.com/drive/1I5YTKvWIqrOOCGNHCOURWSop-rFbzVZ_?usp=sharing)
+1. Access AlphaCross-XL through Google Colab: [AlphaCross-XL.ipynb](https://colab.research.google.com/drive/1yb2qfi3XmTeafimnkdlY0Lp4AawZOUSD?usp=sharing)
 
 2. Initial Setup:
    - First-time setup takes approximately 8-10 minutes for dependency installation
